@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Survey Form</h1>
+    <p>Feel Free To Answer The Questions Below Based On Your own experiance and option if you are not convenient in answering a particular question plaese skip it by answering no every answer would be very appreciated .Thank you for your time</p>
+    <form>
+        <div class="container-item">
+        <div>
+        <label>Your Name</label><br>
+        <input type="text" name="full name" placeholder="Full Name"><br><br>
+        <label>Your Email Address</label><br>
+        <input type="email" name="Email" placeholder="Enter the Email"><br><br>
+        <label>Your Phone Number</label><br>
+        <input type="text" name="country code" placeholder="Country Code" value="+91" size="2"/><br>
+        <label>Where do you live?</label><br>
+        <select>
+            <option value="Select">Select</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Bengaluru">Bengaluru</option>
+            <option value="Udupi">Udupi</option>
+        </select><br>
+        <label>Age</label><br>
+        <input type="radio" value="Male"name="gender"checked>15-20<br>
+        <input type="radio" value="Female" name="gender">20-30<br>
+        <input type="radio" value="Other" name="gender">31-40<br>
+        <input type="radio" value="Other" name="gender">41-50<br>
+        <input type="radio" value="Other" name="gender">Prefer not to say<br>
+</div>
+<div>
+        <label>How would you rate yourself proficeincy in English</label><br>
+        <input type="radio"  checked>Beginner<br>
+        <input type="radio" >Intermediate<br>
+        <input type="radio">Advance<br>
+        <label>Have you ever made coding contest?</label><br>
+        <input type="radio"  checked>yes<br>
+        <input type="radio" >No<br>
+        <label>Discuss what drives your passion for coding and outline your aspiration in the field</label><br>
+        <textarea cols="80" rows="5" value="text"></textarea><br>
+        <label>What are some of the challenge you face while coding</label><br>
+        <textarea cols="80" rows="5" value="text" required></textarea><br>
+        <label>Please list the Data Structure you have a strong understanding of</label><br>
+        <textarea cols="80" rows="5" value="text" required></textarea><br>
+
+        <button>Submit Form</button>
+    </div>
+    </div>
+    </form>
+</div>
+</body>
+</html>
